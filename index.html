@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html>
+    <head>
+        <!-- Recommended meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+        <!-- This script tag bootstraps PyScript -->
+        <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+        <link rel="stylesheet" href="style.css" />
+        
+        <title>Finding Meaning in Randomness</title>
+        <link rel="icon" href="favicon.png"/>
+    </head>
+
+    <body>
+        <h1>Finding Meaning in Randomness</h1>
+        
+        <section class="pyscript">
+            This tool will generate a 1000-digit-long number, and return 
+            how many times the word "Meaning" is in it, multiple different ways.
+            <br /> <br />
+            
+            <button type="submit" class="py-button" py-click="loadPyContent">
+                Generate Random Numbers
+            </button>
+            
+            <br />
+            <script type="py" src="./main.py"></script>
+            
+            <p class="numbers">Generated numbers: <span id="thisisR"></span></p>
+            <p class="numbers">Generated letters: <span id="thisisTab"></span></p>
+            <p>There are <span id="lentab">___</span> recognizable numbers in a randomly generated pool of <span id="lenr">___</span>.</p>
+            <p>There are <span id="ta">___</span> <span id="text">___</span>'s, which is <span id="percent">___</span>%.</p>
+            <p>Alternatively, there are <span id="divide">___</span> <span id="text">___</span>'s: <span id="words">___</span></p>
+        </section>
+    </body>
+</html>
