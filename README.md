@@ -1,2 +1,4 @@
 # Finding-Meaning-in-Randomness
-This tool will generate a 1000-digit-long number, and return how many times the word "Meaning" is in it, multiple different ways.
+This tool will generate a 1000-digit-long number, and return how many times the word "Meaning" is in it, multiple different ways. 
+
+Originally a test to see how PyScript works.
